@@ -95,7 +95,8 @@ export const PROJECTS: Project[] = [
   {
     id: "anonimvent",
     title: "AnonimVent - Peer Support",
-    subtitle: "React Native • Expo • Socket.io",
+    subtitle:
+      "React Native • Expo • Socket.io • Node.js • PostgreSQL • TypeScript",
     description:
       "Cross-platform mobile application providing anonymous peer support through real-time messaging. Connects 'venters' with trained listeners through an intelligent matching algorithm.",
     techStack: [
@@ -156,10 +157,10 @@ export const PROJECTS: Project[] = [
   {
     id: "fitnesspro",
     title: "FitnessPro - AI Platform",
-    subtitle: "MERN Stack • Google Gemini AI",
+    subtitle: "MERN Stack • Google Gemini AI • JWT • Recharts",
     description:
       "Comprehensive fitness platform integrating Google Gemini AI to provide personalized workout recommendations and meal planning.",
-    techStack: ["MERN Stack", "Gemini AI", "Recharts"],
+    techStack: ["MERN Stack", "JWT", "Gemini AI", "Recharts"],
     features: [
       "AI-Powered Fitness Chatbot",
       "Dynamic Progress Tracking",
@@ -185,7 +186,7 @@ export const PROJECTS: Project[] = [
   {
     id: "covmutex",
     title: "CovMutEx - COVID-19 Mutation Explorer",
-    subtitle: "React.js • Django • Chart.js • MySQL",
+    subtitle: "React.js • Django • Chart.js • Redux • MySQL • Nginx",
     description:
       "A high-performance genomic visualization and analysis platform designed to process and analyze over 600,000 COVID-19 variants across 29,903 genomic positions. The tool integrates deep learning for mutation prediction and serves as a critical resource for bioinformatics research.",
     techStack: [

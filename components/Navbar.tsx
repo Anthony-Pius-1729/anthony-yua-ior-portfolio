@@ -28,7 +28,7 @@ const Navbar: React.FC = () => {
           : "bg-transparent py-6"
       }`}
     >
-      <div className="max-w-7xl mx-auto px-4 md:px-8 lg:px-12 flex justify-between items-center">
+      <div className="container mx-auto px-8 flex justify-between items-center">
         <a
           href="#"
           className="text-xl font-bold text-white tracking-tighter group"

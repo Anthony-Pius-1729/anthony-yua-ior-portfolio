@@ -1,19 +1,23 @@
-
-import React from 'react';
-import { SKILL_CATEGORIES } from '../constants';
+import React from "react";
+import { SKILL_CATEGORIES } from "../constants";
 
 const Skills: React.FC = () => {
   return (
     <section id="skills" className="py-24 bg-slate-900/50">
-      <div className="container mx-auto px-6">
+      <div className="max-w-7xl mx-auto px-4 md:px-8 lg:px-12">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-white mb-4">Core Technologies</h2>
+          <h2 className="text-4xl font-bold text-white mb-4">
+            Core Technologies
+          </h2>
           <div className="w-20 h-1.5 bg-indigo-600 mx-auto rounded-full"></div>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {SKILL_CATEGORIES.map((cat) => (
-            <div key={cat.title} className="glass-card p-8 rounded-3xl hover:border-indigo-500/50 transition-colors group">
+            <div
+              key={cat.title}
+              className="glass-card p-8 rounded-3xl hover:border-indigo-500/50 transition-colors group"
+            >
               <h3 className="text-xl font-bold text-white mb-6 flex items-center gap-2">
                 <span className="w-2 h-8 bg-indigo-600 rounded-full inline-block group-hover:scale-y-110 transition-transform"></span>
                 {cat.title}

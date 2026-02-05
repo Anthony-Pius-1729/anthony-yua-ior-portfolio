@@ -6,7 +6,7 @@ const Contact: React.FC = () => {
     <section id="contact" className="py-24 relative overflow-hidden">
       <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-white/10 to-transparent"></div>
 
-      <div className="container mx-auto px-6">
+      <div className="max-w-7xl mx-auto px-4 md:px-8 lg:px-12">
         <div className="glass-card rounded-[3rem] p-12 md:p-20 relative overflow-hidden">
           <div className="absolute top-[-50px] right-[-50px] w-64 h-64 bg-indigo-600/10 blur-[100px] rounded-full"></div>
 
